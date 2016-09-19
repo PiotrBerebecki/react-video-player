@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+#app div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+input {
+	padding: 5px;
+	font-size: 16px;
+}
+
+input:not(:first-of-type) {
+	margin-left: 20px;
+}
+
+video {
+	margin: 30px;
+	width: 500px;
+	max-width: 85%;
+}
